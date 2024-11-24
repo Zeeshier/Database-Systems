@@ -13,3 +13,10 @@ WITH NewStudents AS (
 INSERT INTO students (id, name, age, department)
 SELECT id, name, age, department
 FROM NewStudents;
+
+-- Group By
+
+SELECT department, AVG(score) AS avg_score
+FROM students
+GROUP BY department
+HAVING AVG(score) > 85;
