@@ -1,4 +1,3 @@
--- With Clause
 WITH NewStudents AS (
     SELECT 7 AS id, 'Ali' AS name, 19 AS age, 'Computer Science' AS department
     UNION ALL
@@ -13,6 +12,7 @@ WITH NewStudents AS (
 INSERT INTO students (id, name, age, department)
 SELECT id, name, age, department
 FROM NewStudents;
+
 
 -- Group By
 
