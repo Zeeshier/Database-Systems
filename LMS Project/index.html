@@ -5,66 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMS Portal</title>
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-    <header class="header">
-        <div class="container">
-            <h1 class="logo">Learnify</h1>
-            <nav class="nav">
-                <a href="#" class="nav-link">Home</a>
-                <a href="#courses" class="nav-link">Courses</a>
-                <a href="#dashboard" class="nav-link">Dashboard</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </nav>
+    <div class="container">
+        <div class="text-center my-5">
+            <h1>Welcome to LMS Portal</h1>
+            <p>Your ultimate destination for learning AI, Data Science, and more!</p>
+            <a href="courses.html" class="btn btn-primary btn-lg">Browse Courses</a>
         </div>
-    </header>
-
-    <section class="hero">
-        <div class="hero-text">
-            <h2>Empower Your Learning Journey</h2>
-            <p>Join our platform to access hundreds of online courses and master new skills.</p>
-            <a href="#courses" class="btn">Explore Courses</a>
-        </div>
-    </section>
-
-    <section id="courses" class="courses">
-        <h2 class="section-title">Available Courses</h2>
-        <div class="course-grid">
-            <div class="course-card">
-                <h3>Web Development</h3>
-                <p>Learn to build modern, responsive websites from scratch.</p>
-                <a href="#" class="btn">Enroll Now</a>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Why Choose Us?</h3>
+                <ul>
+                    <li>Expert Instructors</li>
+                    <li>Flexible Learning</li>
+                    <li>Affordable Prices</li>
+                </ul>
             </div>
-            <div class="course-card">
-                <h3>Data Science</h3>
-                <p>Master data analysis, visualization, and machine learning.</p>
-                <a href="#" class="btn">Enroll Now</a>
-            </div>
-            <div class="course-card">
-                <h3>Graphic Design</h3>
-                <p>Unleash your creativity with design tools and techniques.</p>
-                <a href="#" class="btn">Enroll Now</a>
+            <div class="col-md-6">
+                <img src="assets/images/home-banner.jpg" class="img-fluid" alt="Learning Image">
             </div>
         </div>
-    </section>
-
-    <section id="dashboard" class="dashboard">
-        <h2 class="section-title">Your Dashboard</h2>
-        <div class="dashboard-content">
-            <h3>Enrolled Courses</h3>
-            <ul class="course-list">
-                <li>Introduction to Python <span class="status">In Progress</span></li>
-                <li>Machine Learning Basics <span class="status">Completed</span></li>
-            </ul>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2024 Learnify. All Rights Reserved.</p>
-    </footer>
+    </div>
 </body>
 
 </html>
