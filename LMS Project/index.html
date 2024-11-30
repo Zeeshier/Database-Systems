@@ -5,31 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMS Portal</title>
-    <!-- Link to CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="text-center my-5">
-            <h1>Welcome to LMS Portal</h1>
-            <p>Your ultimate destination for learning AI, Data Science, and more!</p>
-            <a href="courses.html" class="btn btn-primary btn-lg">Browse Courses</a>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Learnify</h1>
+            <nav class="nav">
+                <a href="#courses">Courses</a>
+                <a href="#about">About</a>
+                <a href="signup.html" class="btn">Sign Up</a>
+            </nav>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Why Choose Us?</h3>
-                <ul>
-                    <li>Expert Instructors</li>
-                    <li>Flexible Learning</li>
-                    <li>Affordable Prices</li>
-                </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h2>Empower Your Learning Journey</h2>
+            <p>Join our platform to access hundreds of online courses and master new skills.</p>
+            <a href="signin.html" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2 class="section-title">Our Courses</h2>
+        <div class="courses-list">
+            <div class="course">
+                <h3>Artificial Intelligence</h3>
+                <p>Explore the basics and advanced concepts of AI.</p>
             </div>
-            <div class="col-md-6">
-                <img src="assets/images/home-banner.jpg" class="img-fluid" alt="Learning Image">
+            <div class="course">
+                <h3>Data Science</h3>
+                <p>Learn how to analyze and interpret complex data.</p>
+            </div>
+            <div class="course">
+                <h3>Machine Learning</h3>
+                <p>Understand the algorithms and models in ML.</p>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Us</h2>
+        <p>Learnify is an online learning platform designed to provide high-quality education to learners around the
+            globe. Our courses cover a wide range of topics from AI to Data Science, ensuring that you have access to
+            cutting-edge knowledge.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Learnify. All Rights Reserved.</p>
+    </footer>
 </body>
 
 </html>
